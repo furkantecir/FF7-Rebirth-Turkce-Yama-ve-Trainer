@@ -58,33 +58,25 @@ Oyun sürecini (`ff7rebirth_.exe`) otomatik algılayan ve bellek adreslerini sen
 
 ---
 
-## Proje Mimarisi
+## Paket İçeriği
+
+Kurulum arşivi (`FF7Rebirth_TR_Yama_Ve_Trainer_v1.0.0.zip`) içeriği:
 
 ```
-├── Kurulum Paketi/
-│   ├── FF7RebirthTR.exe            # Bağımsız tek dosya WPF başlatıcı
-│   ├── BENI OKU - KURULUM REHBERI.txt
-│   └── patch/                      # Dağıtım hazır IoStore yama arşivi
-│       ├── runtime_manifest.json
-│       ├── z_FF7Rebirth_TR_P.pak
-│       ├── z_FF7Rebirth_TR_P.ucas
-│       └── z_FF7Rebirth_TR_P.utoc
-├── foto/                           # Ekran görüntüleri
-│   ├── Screenshot_1.png
-│   └── Screenshot_2.png
-├── src/
-│   ├── FF7RebirthTR.Core/          # Veri modelleri ve çekirdek arayüzler
-│   ├── FF7RebirthTR.Infrastructure/# Süreç algılayıcı, dosya doğrulama ve bellek servisi
-│   └── FF7RebirthTR.App/           # Modern WPF kullanıcı arayüzü ve tema motoru
-└── tools/
-    ├── build_patch.py              # UnrealReZen IoStore derleme aracı
-    └── fast_translation_engine.py  # Yerelleştirme işlem hattı
+FF7Rebirth_TR_Yama_Ve_Trainer_v1.0.0/
+├── FF7RebirthTR.exe            # Bağımsız tek dosya Türkçe Yama & Trainer Başlatıcısı
+├── BENI OKU - KURULUM REHBERI.txt
+└── patch/                      # Unreal Engine IoStore yama arşivi
+    ├── runtime_manifest.json
+    ├── z_FF7Rebirth_TR_P.pak
+    ├── z_FF7Rebirth_TR_P.ucas
+    └── z_FF7Rebirth_TR_P.utoc
 ```
 
 ---
 
 ## Lisans ve Yasal Uyarı
 
-- Bu proje eğitim, tersine mühendislik araştırması ve topluluk yerelleştirmesi amacıyla geliştirilmiş, kar amacı gütmeyen açık kaynaklı bir çalışmadır.
+- Bu proje eğitim, araştırma ve topluluk yerelleştirmesi amacıyla **Furkan Tecir (FuTe)** tarafından geliştirilmiş, kâr amacı gütmeyen bağımsız bir çalışmadır.
 - Final Fantasy VII Rebirth ve ilgili tüm görsel/işitsel materyaller Square Enix Co., Ltd. mülkiyetindedir.
 - Geliştirici: **Furkan Tecir (FuTe)**
