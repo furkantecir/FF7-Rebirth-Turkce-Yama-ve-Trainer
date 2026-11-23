@@ -1,0 +1,8 @@
+# Ignore all project source files, tools, and build data for public showcase repository
+*
+
+# Whitelist public showcase files only
+!/README.md
+!/foto/
+!/foto/**
+!/.gitignore
